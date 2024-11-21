@@ -1,0 +1,72 @@
+{
+    "mc": {
+        "type": "lager-vmp-00mrad",
+        "tag": "disp-jpsi-00-electron",
+        "run": "1",
+        "lumi": "10",
+        "info": "lumi in fb^-1",
+        "output_hepmc": "true",
+        "generator": {
+            "type": "jpsi-10on130",
+            "vertex": {
+                "type": "origin"
+            },
+            "beam": {
+                "lepton": {
+                    "type": "constant",
+                    "particle_type": "e-",
+                    "dir": [
+                        "0",
+                        "0",
+                        "-1"
+                    ],
+                    "energy": "10"
+                },
+                "ion": {
+                    "type": "constant",
+                    "particle_type": "proton",
+                    "dir": [
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "energy": "130"
+                }
+            },
+            "target": {
+                "type": "primary"
+            },
+            "photon": {
+                "type": "vphoton",
+                "y_range": [
+                    "0.001",
+                    "1"
+                ],
+                "Q2_range": [
+                    "1",
+                    "10"
+                ]
+            },
+            "process_0": {
+                "type": "oleksii_2vmp",
+                "info": "Formalism from Phys. Rev. D 94, 074001 (2016)",
+                "vm_type": "J/psi",
+                "T0": "0.0",
+                "R_vm_c": "2.164",
+                "R_vm_n": "2.131",
+                "dipole_n": "2.575"
+            }
+        },
+        "detector": {
+            "type": "4pi"
+        },
+        "decay": {
+            "vm_decay_lepton_type": "11",
+            "vm_branching_ratio": "0.05971",
+            "do_radiative_decay_vm": "true"
+        }
+    },
+    "defaults": {
+        "yr-vmp": ""
+    }
+}
