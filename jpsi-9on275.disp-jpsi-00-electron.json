@@ -3,7 +3,7 @@
         "type": "lager-vmp-00mrad",
         "tag": "disp-jpsi-00-electron",
         "run": "1",
-        "lumi": "2.5",
+        "lumi": "35",
         "info": "lumi in fb^-1",
         "output_hepmc": "true",
         "generator": {
