@@ -41,6 +41,8 @@ Use abconv from https://github.com/eic/afterburner with the preset for the beam:
 
 abconv -p "ip6_ep_130x9" generator_output.hepmc
 
+The new 9x130 and 9x275 datasets (Sept 2026) were processed with afterburner 0.2.1.
+
 ## 3. Convert to hepmc3.tree.root
 
 Build https://github.com/eic/hepmc3ascii2root and convert the afterburner output:

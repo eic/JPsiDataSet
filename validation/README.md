@@ -36,6 +36,8 @@ The configurations for the other beam energies (5x41, 5x100, 10x100, 10x130, 10x
 
 The 9x130 and 9x275 datasets were generated with lAger 3.7.0, built locally with modifications.
 
+The new 9x130 and 9x275 datasets were processed with afterburner (abconv) 0.2.1.
+
 Afterburner presets: the presets for 9x130 and 9x275 match the beam parameters stored in the new dataset files, and ip6_ep_130x10 matches the beam parameters of an existing 10x130 sample. The other presets in the top-level README follow the original instruction to use high acceptance where the afterburner provides it; they were not checked against existing samples.
 
 ## Validation and caveats
