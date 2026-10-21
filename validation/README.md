@@ -34,7 +34,7 @@ jpsi-9on130.disp-jpsi-00-electron.json and jpsi-9on275.disp-jpsi-00-electron.jso
 
 The configurations for the other beam energies (5x41, 5x100, 10x100, 10x130, 10x250, 18x275) were made from the eic examples in https://eicweb.phy.anl.gov/monte_carlo/lager/-/tree/master/examples/eic for the earlier samples generated with lAger 3.6.1, and are tagged lAger3.6.1-1.0.
 
-The 9x130 and 9x275 datasets were generated with lAger 3.7.0, built locally with modifications.
+Both the original and the new 9x130 and 9x275 datasets were generated with lAger 3.7.0, built locally with modifications.
 
 The new 9x130 and 9x275 datasets were processed with afterburner (abconv) 0.2.1.
 

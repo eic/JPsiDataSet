@@ -19,7 +19,7 @@ The high-acceptance (hiacc) preset is used where the afterburner provides one; 1
 
 ## lAger versions
 
-The samples for the first six beam energies were generated with lAger 3.6.1 (configurations tagged lAger3.6.1-1.0); the 9x130 and 9x275 samples with lAger 3.7.0.
+The samples for the first six beam energies were generated with lAger 3.6.1 (configurations tagged lAger3.6.1-1.0); all 9x130 and 9x275 samples, both the original and the new (Sept 2026) datasets, with lAger 3.7.0.
 
 3.7.0 adds a CLAS12 phi electroproduction process and compiler fixes. The lAger code for the J/psi model (oleksii_2vmp), the decay and the call to PHOTOS for the radiative decay is unchanged, so the same configurations work with both versions.
 
